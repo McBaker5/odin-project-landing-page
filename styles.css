@@ -14,6 +14,12 @@ h3 {
     color: #f9faf8;
 }
 
+h4 {
+    margin: 0;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
 .sign-up-group p,
 a {
     font-size: 18px;
@@ -67,6 +73,32 @@ a {
     padding-right: 500px;
     padding-top: 90px;
     padding-bottom: 90px;
+}
+
+.group-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 8px;
+}
+
+.group-4 p {
+    margin: 0;
+}
+
+.group-4 button {
+    width: 125px;
+    height: 35px;
+    border: solid;
 }
 
 .group-1 {
