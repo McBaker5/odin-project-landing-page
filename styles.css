@@ -15,10 +15,27 @@ a {
     color: #e5e7eb;
 }
 
+.sign-up-group p {
+    margin: 0;
+    padding-top: 4px;
+    padding-bottom: 16px;
+}
+
+.sign-up-group h1 {
+    margin: 0;
+}
+
+.sign-up-group button {
+    width: 125px;
+    height: 35px;
+    border: none;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .header-links {
@@ -43,11 +60,10 @@ a {
     padding-right: 500px;
 }
 
-.group-1,
-.group-2,
-.group-4 {
-    padding-left: 48px;
-    padding-right: 48px;
+.group-1 {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
 }
 
 .image-group {
@@ -76,12 +92,14 @@ a {
 .sign-up-and-image {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 50px
 }
 
 .hero-image {
     background-color: gray;
-    width: 500px;
-    height: 200px;
+    width: 530px;
+    height: 230px;
     flex-shrink: 0;
     color: white;
     display: flex;
@@ -108,6 +126,13 @@ body {
 .group-4,
 button {
     background-color: #3882f6;
+    color: #f9faf8;
+}
+
+button {
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer {
