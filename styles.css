@@ -26,7 +26,8 @@ a {
     gap: 24px;
 }
 
-.group-1 {
+.group-1,
+.footer {
     background-color: #1f2937;
 }
 
@@ -51,18 +52,25 @@ a {
 
 .image-group {
     display: flex;
+    justify-content: space-between;
+    gap: 50px
 }
 
 .image-and-subtext {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 150px;
 }
 
 .image-and-subtext img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-color: #3882f6;
+}
+
+.image-and-subtext p {
+    text-align: center;
 }
 
 .sign-up-and-image {
@@ -75,6 +83,10 @@ a {
     width: 500px;
     height: 200px;
     flex-shrink: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quote {
@@ -86,6 +98,24 @@ a {
 
 .quoted-person {
     text-align: right;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.group-4,
+button {
+    background-color: #3882f6;
+}
+
+.footer {
+    color: #f9faf8;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0;
 }
 
 * {
